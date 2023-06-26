@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <hr><h1 id="titulo">Formulário do meu portfólio</h1><hr>
+        <p id="subtitulo"> Complete os dados abaixo</p>
+        <br>
+     </div>
+  
+  
+<form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+        
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+    </fieldset>
+        <div>
+            <label for="">Em qual periodo você estuda.</label>
+            <label>
+            <input type="radio" name="devweb" value="matutino" checked>Matutino
+            </label>
+            <label>
+            <input type="radio" name="devweb" value="vespertino">Vespertino
+            </label>
+            <label>
+            <input type="radio" name="devweb" value="noturno">Noturno
+            </label>
+        </div>
+
+        <div>
+            <label for="aplicacao">Qual lado da aplicação você desenvolve</label>
+            <select name="" id="aplicacao">
+            <option select disabled value="">Escolha...</option>
+            <option value="">Front-end</option>
+            <option value="">Back-end</option>
+            <option value="">Fullstack</option>
+            </select>
+        </div>
+    
+    <fieldset class="grupo">
+        <div>
+            <label>Selecione as tecnologias que você gostaria de atuar:</label><br><br>
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+            <label for="tecnologia1">HTML</label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+            <label for="tecnologia1">CSS</label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+            <label for="tecnologia1">JavaScript</label>
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+            <label for="tecnologia1">PHP</label>
+            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C++">
+            <label for="tecnologia1">C++</label>
+            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+            <label for="tecnologia1">Python</label>
+        </div>
+    </fieldset>
+</body>
+</html>
